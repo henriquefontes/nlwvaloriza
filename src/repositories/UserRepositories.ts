@@ -1,5 +1,5 @@
 import { Entity, EntityRepository, Repository } from "typeorm";
-import { User } from "../entities/user"
+import { User } from "../entities/User"
 
 @EntityRepository(User)
 class UsersRepositories extends Repository<User> {

@@ -9,5 +9,5 @@ export function ensureAdmin(req: Request, res: Response, next: NextFunction) {
         return next();
     }
 
-    return res.status(401).json({ message: "Unauthorized" })
+    return res.status(401).json({ message: "Unauthorized" });
 }

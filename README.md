@@ -3,7 +3,7 @@
 <br><br>
 
 <p align="center">
-  <img src="banner.png" width="600" style="border-radius: 7px">
+  <img src="banner.png" style="border-radius: 7px">
 </p>
 
 <br><br>
@@ -37,13 +37,11 @@ mkdir nlw-valoriza
 cd nlw-valoriza
 git init
 git clone https://github.com/henriquefontes/nlwvaloriza.git
-
 ```
 <br>
 
 **2 - Instalando dependências:**
 - Usando o Yarn
-<br>
 
 ```
 yarn install
@@ -58,7 +56,6 @@ npm install
 **3 - Iniciando o projeto:**
 
 - Usando o Yarn
-<br>
 
 ```
 yarn dev

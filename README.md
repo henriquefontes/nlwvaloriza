@@ -1,25 +1,72 @@
-# NLW Valoriza - Next Level Week 6
+# NLW #6 - Valoriza
 
-## Regras
+<br><br>
 
-- Cadastro de Usuário
+<p align="center">
+  <img src="banner.png" width="600" style="border-radius: 7px">
+</p>
 
-  [ x ] Não é permitido cadastrar mais de um usuário com o mesmo e-mail.
+<br><br>
 
-  [ x ] Não é permitido cadastrar usuário sem email.
+# Sobre o projeto
 
-- Cadastro de TAG 
+O projeto trata-se de uma plataforma de envio de elogios, que tem como finalidade demonstrar o agradecimento de uma pessoa à outra.
 
-  [ x ] Não é permitido cadastrar tag sem nome.
+**⚛️ Tecnologias Utilizadas:**
 
-  [ x ] Não é permitido cadastrar mais de uma tag com o mesmo nome.
+- [Node.JS](https://nodejs.org/)
+- [Typescript](https://www.typescriptlang.org)
 
-  [ x ] Não é permitido o cadastro por usuário que não sejam administradores.
+**➕ Dependências**:
 
-- Cadastro de Elogios
+- [Express](expressjs.com)
+- [JsonWebToken](https://jwt.io)
+- [TypeORM](https://typeorm.io)
+- [uuid](https://github.com/uuidjs/uuid)
+- [Class Transformer](https://github.com/typestack/class-transformer)
+- [Bcrypt](https://github.com/kelektiv/node.bcrypt.js/)
+<br><br>
 
-  [ ] Não é permitido elogiar si próprio.
+# Instalação do Projeto:
 
-  [ ] Não é permitido cadastrar elogios para usuários inválidos.
+**1 - Clonar com HTTPS:**
+<br>
 
-  [ ] O usuário precisa estar autenticado na aplicação.
+```
+mkdir nlw-valoriza
+cd nlw-valoriza
+git init
+git clone https://github.com/henriquefontes/nlwvaloriza.git
+
+```
+<br>
+
+**2 - Instalando dependências:**
+- Usando o Yarn
+<br>
+
+```
+yarn install
+```
+- Usando o NPM
+
+```
+npm install
+```
+<br>
+
+**3 - Iniciando o projeto:**
+
+- Usando o Yarn
+<br>
+
+```
+yarn dev
+```
+- Usando o NPM
+
+```
+npm run dev
+```
+<br>
+

@@ -10,9 +10,15 @@
 
 # Sobre o projeto
 
+<div align="center">
+
 ![Size](https://img.shields.io/github/repo-size/henriquefontes/nlwvaloriza?color=6c63ff) 
 ![Types](https://img.shields.io/npm/types/typescript?color=6c63ff)
 ![Update](https://img.shields.io/github/last-commit/henriquefontes/nlwvaloriza?color=6c63ff)
+
+</div>
+
+
 
 O projeto trata-se de uma plataforma de envio de elogios, que tem como finalidade demonstrar o agradecimento de uma pessoa à outra.
 

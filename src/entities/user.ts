@@ -11,6 +11,7 @@ class User {
     @Column()
     name: string;
 
+    @Exclude()
     @Column()
     email: string;
 

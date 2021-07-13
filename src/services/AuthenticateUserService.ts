@@ -29,7 +29,7 @@ class AuthenticateUserService {
         const passwordMatch = await compare(password, user.password);
 
         if (!passwordMatch) {
-            throw new Error("Email incorrect!");
+            throw new Error("Email or password incorrect!");
         }
 
         //Gerar Token

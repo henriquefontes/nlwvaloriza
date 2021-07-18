@@ -37,6 +37,10 @@ O projeto trata-se de uma plataforma de envio de elogios, que tem como finalidad
 - [Bcrypt](https://github.com/kelektiv/node.bcrypt.js/)
 <br><br>
 
+# Front end
+
+- O front-end desse projeto está disponível neste [repositório](https://github.com/henriquefontes/nlwvaloriza-front).
+
 # Instalação do Projeto:
 
 **1 - Clonar com HTTPS:**
